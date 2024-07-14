@@ -63,28 +63,28 @@ function Home() {
             </div>
             <div className="flex justify-evenly bg-green-100"> {/* the lead members*/}
                 <div className="w-80 h-80 border-black border-4 pt-8 duration-200 hover:scale-110 hover:z-10 bg-gray-200 rounded-3xl shadow-2xl shadow-black">
-                    <center><img src={fou} className="w-28 pb-3"></img></center>
+                    <center><img src={fou} className="w-28 pb-3" alt="images"></img></center>
                     <center><span className="text-2xl "><span className="font-medium">Anjali Patel</span><br/>
                     Founder
                     </span></center>
                     
                 </div>
                 <div className="w-80 h-80 border-black border-4 pt-8 duration-200 hover:scale-110 hover:z-10 bg-gray-200 rounded-3xl shadow-2xl shadow-black">
-                    <center><img src={sci} className="w-28 pb-3"></img></center>
+                    <center><img src={sci} className="w-28 pb-3" alt="images"></img></center>
                     <center><span className="text-2xl "><span className="font-medium">Dr. Sahil Sharma</span><br/>
                     Leads the scientific research and data analysis for the organization.
                     </span></center>
                     
                 </div>
                 <div className="w-80 h-80 border-black border-4 pt-8 duration-200 hover:scale-110 hover:z-10 bg-gray-200 rounded-3xl shadow-2xl shadow-black">
-                    <center><img src={fi} className="w-28 pb-3"></img></center>
+                    <center><img src={fi} className="w-28 pb-3" alt="images"></img></center>
                     <center><span className="text-2xl "><span className="font-medium">Rani Singh</span><br/>
                     Oversees community engagement programs and fosters relationships with local villages..
                     </span></center>
                     
                 </div>
                 <div className="w-80 h-80 border-black border-4 pt-8 duration-200 hover:scale-110 hover:z-10 bg-gray-200 rounded-3xl shadow-2xl shadow-black ">
-                    <center><img src={fi2} className="w-28 pb-3"></img></center>
+                    <center><img src={fi2} className="w-28 pb-3" alt="images"></img></center>
                     <center><span className="text-2xl "><span className="font-medium">Dinesh Kapoor</span><br/>
                     Raises awareness about the organization's mission and goals through various media channels.
                     </span></center>
@@ -102,7 +102,7 @@ function Home() {
         <br/>
         <div className="flex justify-start align-middle gap-8 p-5">
             <div className="w-80">
-                <img src={ev} alt="Event Image" className="rounded-3xl shadow-lg"/>
+                <img src={ev} alt="Event Image" className="rounded-3xl shadow-lg" />
             </div>
             <div className="text-xl leading-10 flex flex-col justify-center">
                 <ul className="ml-10 space-y-2">
@@ -124,7 +124,7 @@ function Home() {
         <br/>
         <div className="flex justify-start align-middle gap-8 p-5">
             <div className="w-80">
-                <img src={ev} alt="Event Image" className="rounded-3xl shadow-lg"/>
+                <img src={ev} alt="Event Image" className="rounded-3xl shadow-lg" />
             </div>
             <div className="text-xl leading-10 flex flex-col justify-center">
                 <ul className="ml-10 space-y-2">
@@ -145,7 +145,7 @@ function Home() {
         <br/>
         <div className="flex justify-start align-middle gap-8 p-5">
             <div className="w-80">
-                <img src={ev} alt="Event Image" className="rounded-3xl shadow-lg"/>
+                <img src={ev} alt="Event Image" className="rounded-3xl shadow-lg" />
             </div>
             <div className="text-xl leading-10 flex flex-col justify-center">
                 <ul className="ml-10 space-y-2">
@@ -169,7 +169,7 @@ function Home() {
     <div className="flex justify-evenly bg-green-100 pb-8">
     <div className="flex justify-center  w-[30rem] bg-white ">
         <div className=" border-black border-4 flex-col justify-normal">
-            <img src={re} className="w-[30rem]"/>
+            <img src={re} className="w-[30rem]" alt="images"/>
             <center><div className="text-2xl">Forest Restoration Initiative</div></center>
             <center>Join the Forest Restoration Initiative's tree planting event! Help restore the froest and create a healthier future for wildlife and our community. Plant trees, learn about the ecosystem, and have fun in the great outdoors!</center>
             <center className="py-10"><Link to="Project" className="p-4 bg-green-400 rounded-2xl">Know More</Link></center>
@@ -178,7 +178,7 @@ function Home() {
     </div>
     <div className="flex justify-center  w-[30rem] bg-white">
         <div className=" border-black border-4 flex-col justify-normal">
-            <img src={re} className="w-[30rem] "/>
+            <img src={re} className="w-[30rem] " alt="images"/>
             <center><div className="text-2xl">Forest Restoration Initiative</div></center>
             <center>Join the Forest Restoration Initiative's tree planting event! Help restore the froest and create a healthier future for wildlife and our community. Plant trees, learn about the ecosystem, and have fun in the great outdoors!</center>
             <center className="py-10"><Link to="Project" className="p-4 bg-green-400 rounded-2xl">Know More</Link></center>
@@ -196,7 +196,7 @@ function Home() {
         <br/>
         <div className="flex justify-start align-middle gap-8 p-5">
             <div className="w-80">
-                <img src={ev} alt="Event Image" className="rounded-3xl shadow-lg"/>
+                <img src={ev} alt="Event Image" className="rounded-3xl shadow-lg" />
             </div>
             <div className="text-xl leading-10 flex flex-col justify-center">
                 <ul className="ml-10 space-y-2">
