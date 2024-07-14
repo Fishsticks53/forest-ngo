@@ -11,7 +11,7 @@ function Event(){
             </div>
             <div className="flex justify-normal mx-20 mt-20">
                 <div>
-                    <img src={ev} className="w-96"/>
+                    <img src={ev} className="w-96" alt="images"/>
                 </div>
                 <div>
                     <ul className="ml-10 space-y-2 text-4xl leading-[80px]">
