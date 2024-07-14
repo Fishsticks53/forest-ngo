@@ -12,19 +12,19 @@ function Home() {
     return (
         <div>
             <Navbar/>
-            <div className="relative bg-gray-100 min-h-screen">
+            <div className="relative bg-gren-100 min-h-screen">
             <div className="bg-img1 w-screen h-screen flex items-center justify-center">
                 <h1 className="text-5xl text-white z-1 italic font-cur2 font-light leading-[100px]">
                     Greenheart: Protecting Forests, Nurturing Our Future
                 </h1>
             </div>
 
-            <div className="z-1 my-10">
+            <div className="z-1 py-10 bg-green-100">
                 <center className="text-6xl italic font-cur2 font-thin">Our Mission</center>
                 <hr className="h-[5px] my-8 bg-gray-200 border-0 dark:bg-black" />
             </div>
 
-            <div className="flex justify-between mx-16 my-10">
+            <div className="flex justify-between px-16 py-10 bg-green-100">
                 <div className="text-2xl w-1/2 leading-[70px]">
                     <p className="font-rob font-light">
                         Our mission is to protect and restore forests for the benefit of people and the planet. We work to achieve this by promoting sustainable forest management practices,
@@ -40,11 +40,11 @@ function Home() {
             </div>
 
             <div>
-                <hr className="h-[5px] my-8 bg-gray-200 border-0 dark:bg-black" />
+                <hr className="h-[5px]  bg-green-100 border-0 dark:bg-black" />
             </div>
 
-            <div className="mx-16 mb-20">
-                <center className="text-6xl mb-4">About Us</center>
+            <div className="px-16 pb-20 bg-green-100">
+                <center className="text-6xl py-4 bg-green-100">About Us</center>
                 <p className="text-2xl font-rob font-light leading-[40px] italic">
                     Rooted in Legacy, Reaching for the Future
                     At GreenHeart, we're a passionate collective dedicated to safeguarding the world's forests. Our journey began in 1982 when Anjali Patel 
@@ -58,10 +58,10 @@ function Home() {
                 </p>
             </div>
 
-            <div className="mb-20">
+            <div className="pb-20 bg-green-100">
                 <center><span className="text-5xl font-mediun">Meet out team</span></center>
             </div>
-            <div className="flex justify-evenly"> {/* the lead members*/}
+            <div className="flex justify-evenly bg-green-100"> {/* the lead members*/}
                 <div className="w-80 h-80 border-black border-4 pt-8 duration-200 hover:scale-110 hover:z-10 bg-gray-200 rounded-3xl shadow-2xl shadow-black">
                     <center><img src={fou} className="w-28 pb-3"></img></center>
                     <center><span className="text-2xl "><span className="font-medium">Anjali Patel</span><br/>
@@ -91,10 +91,8 @@ function Home() {
                     
                 </div>
             </div>
-            <div><hr className="h-[5px] my-8 bg-gray-200 border-0 dark:bg-black"></hr></div>
-            <center>
-            
-        </center>
+            <div className="bg-green-100 py-8"><hr className="h-[5px]  bg-gray-200 border-0 dark:bg-black"></hr></div>
+        
         
     <div className="flex justify-normal  align-bottom bg-img2 relative pt-80 pb-20">{/*Events part */}
         <div className="absolute top-[9rem] left-[45rem] text-white font-cur2 text-8xl" id="Event">Events</div>
@@ -165,7 +163,7 @@ function Home() {
     </div>
     </div>
     <div><hr className="h-[5px]  bg-gray-200 border-0 dark:bg-black"></hr></div>
-    <div className="pt-8 bg-green-200 pb-14" id="Project">{/**Projects part  */}
+    <div className="pt-8 bg-green-100 pb-14" id="Project">{/**Projects part  */}
         <center><span className="text-6xl font-cur2 font-medium my-3 ">Projects</span></center>
     </div>
     <div className="flex justify-evenly bg-green-100 pb-8">
@@ -190,7 +188,7 @@ function Home() {
     </div>
     <hr className="h-[5px] bg-gray-200 border-0 dark:bg-black" />
     </div>
-    <div className="pt-10" id="Blog">
+    <div className="pt-10  bg-green-100" id="Blog">
         <center><span className="text-6xl ">Blogs</span></center>
         <center><div className="border-black border-4 m-8 inline-block rounded-2xl bg-white shadow-lg w-2/4">
     <center><span className="text-2xl font-rob italic font-semibold mb-10">
